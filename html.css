@@ -1,11 +1,3 @@
-*{
-    border: 1px dashed red
-}
-
-h2{
-    display: block;
-    text-align: left;
-}
 body{
     background: black;
 
@@ -15,28 +7,49 @@ body{
 .post {
     background: white;
     width: 500px;
-    height: 800px;
     margin:auto;
+
 
 }
 
 .post-header{
     display:flex;
-    
-    
-
+    justify-content: space-between;
     }
+   
+.post-header-left{
+    display: flex;
+ }
+
+
+ .post-header-right{
+    height:20px;
+}
+
 
 .post-img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
     
 }
 .post-icons{
-    display:flex;
+   display: flex;
+
 
 }
 .post-body{
+    margin: 0px 10px;
+    
+}
+.post-autor b{
+    display: block;
+}
 
+.post-icons i:last-child{
+    margin-left: auto;
+}
+.post-icons i {
+    margin: 0px 5px;
 }
