@@ -23,7 +23,7 @@ body{
 
 
  .post-header-right{
-    height:20px;
+    height:40px;
 }
 
 
@@ -46,10 +46,22 @@ body{
 .post-autor b{
     display: block;
 }
+.post-autor{
+    margin: auto;
+}
+   
 
 .post-icons i:last-child{
     margin-left: auto;
 }
 .post-icons i {
     margin: 0px 5px;
+}
+.post-header-left i {
+    font-size: 40px;
+    margin: 5px 10px;
+}
+.post-header-right i{
+    margin:8px 20px;
+    font-size: 30px;
 }
